@@ -81,7 +81,8 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.941;
-  color: rgba(255, 255, 255, 0.3);
+  /* color: rgba(255, 255, 255, 0.3); */
+  color: #c4c4c4;
   margin: 0;
   padding: 0;
 }
@@ -2890,6 +2891,7 @@ html.no-csstransitions .home-content__main {
 
 .item-service__text {
   margin-left: 7.2rem;
+  text-align: left;
 }
 
 .item-service__icon {
