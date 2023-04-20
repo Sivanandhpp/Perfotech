@@ -3396,6 +3396,7 @@ html.no-csstransitions .home-content__main {
   padding-bottom: 21rem;
   text-align: center;
   position: relative;
+  z-index: -2;
   background-image: url(../images/designing.webp);
   background-repeat: no-repeat;
   background-position: center center;
@@ -3403,6 +3404,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-testimonials::before {
+  z-index: -1;
   display: block;
   content: "";
   position: absolute;
