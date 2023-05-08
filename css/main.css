@@ -75,14 +75,14 @@ body {
 }
 
 body {
-  background: #121212;
+  background: #ffffff;
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
   line-height: 1.941;
   /* color: rgba(255, 255, 255, 0.3); */
-  color: #c4c4c4;
+  /* color: #ffffff; */
   margin: 0;
   padding: 0;
 }
@@ -115,7 +115,7 @@ a:active {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  color: #FFFFFF;
+  /* color: #000000; */
   text-rendering: optimizeLegibility;
 }
 
@@ -1233,7 +1233,7 @@ input::-moz-focus-inner {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   border: none;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .stats-tabs li a:hover {
@@ -1412,7 +1412,7 @@ body.menu-is-open {
 }
 
 .darker {
-  background-color: #D1D1D1;
+  background-color: #ffffff;
 }
 .black{
 color: #000000;
@@ -1421,6 +1421,10 @@ color: #000000;
 /* ------------------------------------------------------------------- 
  * ## display headings
  * ------------------------------------------------------------------- */
+ .bluehead{
+  color: #1e2c59;
+ }
+
 .display-1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -1428,7 +1432,7 @@ color: #000000;
   line-height: 1.5;
   letter-spacing: -0.03rem;
   margin-top: 0;
-  margin-bottom: 4.8rem;
+  /* margin-bottom: 4.8rem; */
 }
 
 .subhead {
@@ -1701,7 +1705,7 @@ color: #000000;
   padding: 3.6rem 3rem 3.6rem 6rem;
   height: 100%;
   /* width: 50%; */
-  background: #0C0C0C;
+  background: #1e2c59;
   color: rgba(255, 255, 255, 0.25);
   overflow-y: auto;
   overflow-x: hidden;
@@ -2696,7 +2700,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:500px) {
   .home-content h1 {
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .home-content h3 {
@@ -2753,7 +2757,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 10rem;
   padding-bottom: 4rem;
-  background-color: #E8E8E8;
+  background-color: #ffffff;
   position: relative;
 }
 
@@ -2766,13 +2770,17 @@ html.no-csstransitions .home-content__main {
 }
 
 .process h4 {
-  padding-left: 7rem;
+  /* padding-left: 7rem; */
   margin-bottom: 2.1rem;
   position: relative;
   color: #000000;
 }
 
-.process h4::before {
+.processsepration{
+  border-right: 1px solid #1e2c59;
+}
+
+/* .process h4::before {
   content: counter(ctr);
   counter-increment: ctr;
   display: block;
@@ -2789,7 +2797,7 @@ html.no-csstransitions .home-content__main {
   position: absolute;
   left: 0;
   top: -5px;
-}
+} */
 
 .item-process {
   position: relative;
@@ -2823,7 +2831,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:1000px) {
   .s-about {
     padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-bottom: 1rem;
   }
 
   .item-process:nth-child(n) {
@@ -2836,11 +2844,11 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:600px) {
   .s-about {
     padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-bottom: 1rem;
   }
 
   .process h4 {
-    padding-left: 6rem;
+    /* padding-left: 6rem; */
   }
 
   .process h4::before {
@@ -2859,7 +2867,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:400px) {
   .process h4 {
-    padding-left: 5.8rem;
+    /* padding-left: 5.8rem; */
   }
 
   .process h4::before {
@@ -2944,8 +2952,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1000px) {
   .s-services {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .services .item-service:nth-child(2n+1) {
@@ -2969,6 +2977,9 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:800px) {
+  .processsepration{
+    border-right: none;
+  }
   .services {
     margin-top: 4.2rem;
   }
@@ -2988,8 +2999,9 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:600px) {
+
   .s-services {
-    padding-top: 12rem;
+    padding-top: 1rem;
   }
 
   .services .item-service:nth-child(n) {
@@ -3014,8 +3026,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   position: relative;
 }
 
@@ -3240,8 +3252,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .s-works {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
 }
@@ -3372,8 +3384,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-clients {
-    padding-top: 12rem;
-    padding-bottom: 10.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .clients {
@@ -3459,7 +3471,7 @@ html.no-csstransitions .home-content__main {
   text-align: center;
   position: relative;
   z-index: -2;
-  background-image: url(../images/designing.webp);
+  /* background-image: url(../images/designing.webp); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3475,7 +3487,7 @@ html.no-csstransitions .home-content__main {
   width: 100%;
   height: 100%;
   opacity: .9;
-  background-color: #111111;
+  background-color: #ffffff;
 }
 
 .testimonials__icon {
@@ -3589,7 +3601,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:1000px) {
   .s-testimonials {
     padding-top: 15rem;
-    padding-bottom: 19.2rem;
+    padding-bottom: 1rem;
   }
 
 }
@@ -3623,7 +3635,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:600px) {
   .s-testimonials {
     padding-top: 7.8rem;
-    padding-bottom: 15rem;
+    padding-bottom: 1rem;
   }
 
   .testimonials__icon {
@@ -3775,8 +3787,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1000px) {
   .s-contact {
-    padding-top: 15rem;
-    padding-bottom: 19.8rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
   }
 
   .contact-main {
@@ -3836,8 +3848,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-contact {
-    padding-top: 12rem;
-    padding-bottom: 13.2rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
   }
 
   .contact-main {
