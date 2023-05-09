@@ -1424,7 +1424,9 @@ color: #000000;
  .bluehead{
   color: #1e2c59;
  }
-
+.yellowhead{
+  color: #f9ba17;
+}
 .display-1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -2758,7 +2760,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
   padding-top: 10rem;
-  padding-bottom: 4rem;
+  /* padding-bottom: 4rem; */
   background-color: #ffffff;
   position: relative;
 }
@@ -2804,7 +2806,7 @@ html.no-csstransitions .home-content__main {
 .item-process {
   position: relative;
   min-height: 24.6rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .item-process:nth-child(2n+1) {
@@ -2893,7 +2895,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   /* padding-bottom: 18rem; */
   position: relative;
 }
