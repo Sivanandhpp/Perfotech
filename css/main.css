@@ -2333,7 +2333,8 @@ color: #000000;
   font-family: "Nunito Sans", sans-serif;
   margin: 0;
   position: absolute;
-  bottom: 3.6rem;
+  /* bottom: 3.6rem; */
+  top: 70vh;
   left: 8rem;
   z-index: 5;
 }
@@ -3072,7 +3073,7 @@ html.no-csstransitions .home-content__main {
   height: 100%;
   opacity: .3;
   background-color: rgba(0, 0, 0, 0.9);
-  background-image: url(../images/pattern.jpg);
+  background-image: url(/images/pattern.jpg);
   background-size: 760px 380px;
 }
 
