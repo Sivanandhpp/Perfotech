@@ -2366,7 +2366,8 @@ color: #000000;
 
 .home-social i {
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
   vertical-align: middle;
   width: 30px;
@@ -3498,6 +3499,11 @@ html.no-csstransitions .home-content__main {
   background-image:url(/images/pattern.jpg);
   
   padding: 1rem;
+}
+
+.boldbig{
+  font-weight: 500;
+  font-size: 2.4rem;
 }
 
 .s-testimonials {
